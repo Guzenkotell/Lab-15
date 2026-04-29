@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 100vh;
+    width: 100%;
+}
+
+.main_container {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    background-color: rgb(209, 209, 209);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; 
+}
+
+.main_container > * {
+    border: 1px solid white;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
